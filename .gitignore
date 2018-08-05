@@ -1,0 +1,48 @@
+# Original chewy .gitignore, merged with official jetbrains .gitignore
+# Reference: https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/artifacts
+.idea/libraries
+.idea/.name
+.idea/sonarlint/
+.idea/compiler.xml
+.idea/dbnavigator.xml
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+*.iml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+build
+.gradle
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+**/out/
+
+# Node Modules #
+
+# Yarn will clear this directory of any extraneous files. So don't try to drop a .gitignore file there.
+# Some details at https://github.com/yarnpkg/yarn/issues/616
+node_modules
+
+# Misc
+
+.DS_Store
+.sass-cache
